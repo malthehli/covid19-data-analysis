@@ -1,0 +1,72 @@
+{
+  "accrual_periodicity": "other",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "DataManagementOffice@dsh.ca.gov",
+  "data_collection_tool": "",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "#DSH COVID-19 Patient Testing: Last updated - 04/11/2022\r\n\r\nDSH COVID-19 Patient Data reports on patient positives and testing counts at the facility level for DSH.  The table reports on the following data fields: \r\n\r\n* Total patients that tested positive for COVID-19 since 5/16/2020\r\n\r\n* Patients newly positive for COVID-19 in the last 14 days\r\n\r\n* Patient deaths while patient was positive for COVID-19 since 5/30/2020\r\n\r\n* Total number of tests administered since 3/23/2020\r\n\r\n##Table Notes: \r\n\r\nCOVID-19 test results for patients include DSH patients who are tested while receiving treatment at an outside medical facility. Data has been de-identified in accordance with CHHS Data De-identification Guidelines. Counts between 1-10 are masked with \"<11\". Includes Patients Under Investigation (PUIs) testing and proactive testing of asymptomatic patients for surveillance of geriatric, medically fragile, and skilled nursing facility units and for patients upon admission, re-admission, or discharge. Includes all individuals who were positive for COVID-19 at time of death, regardless of underlying health conditions or whether the cause of death has been confirmed to be COVID-19 related illness. Metro-Norwalk is additional COVID-19 surge space and technically a branch location that is part of DSH Metropolitan Hospital. \r\n",
+  "geo_coverage": "",
+  "geographic_granularity": "statewide",
+  "keywords": [
+    "covid",
+    "covid-19",
+    "covid19"
+  ],
+  "limitations": "Limitations",
+  "name": "covid-19-patient-data",
+  "program_web_page": "http://www.dsh.ca.gov/",
+  "related_resources": "",
+  "resources": [
+    {
+      "format": "CSV",
+      "hash": "7a7e7a95cafecc8b2d2f5793f599f2bf",
+      "name": "covid-19-patient-data",
+      "path": "covid-19-patient-data.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Facility",
+            "type": "string"
+          },
+          {
+            "name": "Positive for COVID-19 (Cumulative # since 5/16/2020)",
+            "type": "string"
+          },
+          {
+            "name": "Newly Positive for COVID-19 in the last 14 days",
+            "type": "string"
+          },
+          {
+            "name": "Positive for COVID-19 while at acute hospitalization",
+            "type": "string"
+          },
+          {
+            "name": "Death while patient was positive for COVID-19 (Cumulative # sin",
+            "type": "string"
+          },
+          {
+            "name": "Total # of tests administered (Cumulative # since 3/23/2020, in",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/31f19bf7-2ca3-4834-8e2f-5551c0c72c8c/resource/f349bee2-550e-4043-a0ea-5c307da85a51/download/covid19_patient_03.31.2022.csv",
+          "title": "COVID-19 Patient Data"
+        }
+      ],
+      "title": "COVID-19 Patient Data"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Department of State Hospitals"
+    }
+  ],
+  "temporal_coverage": "NA",
+  "title": "COVID-19 Patient Data"
+}
